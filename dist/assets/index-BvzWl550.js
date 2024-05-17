@@ -1,0 +1,1 @@
+import{_ as e}from"./index-DEga2GMC.js";import{a4 as o,a7 as t}from"./lib-7rFfF-zH.js";import"./ui-3d9NI8O3.js";const c={},r={class:"home w-full h-full"};function s(n,a){return o(),t("div",r,"123")}const i=e(c,[["render",s]]);export{i as default};

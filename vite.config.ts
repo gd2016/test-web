@@ -24,7 +24,7 @@ export default defineConfig(({ command, mode }) => {
       rollupOptions: {
         output: {
           manualChunks: {
-            lib: ['vue', 'axios', 'lodash-es', 'localforage', 'vue-hooks-plus'],
+            lib: ['vue', 'axios', 'lodash-es', 'vue-hooks-plus'],
             ui: ['ant-design-vue']
           }
         }
