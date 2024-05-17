@@ -19,7 +19,7 @@ export default defineConfig(({ command, mode }) => {
   const isBuild = command === 'build'
   const sourcemap = isServe || !!process.env.VSCODE_DEBUG
   return {
-    base: '/ezoo-aio/',
+    base: './',
     build: {
       rollupOptions: {
         output: {
